@@ -8,7 +8,7 @@ docker compose up -d
 
 ## Ingresar al contenedor
 ```bash
-docker exec -it toba_docker bash
+docker exec -it toba_docker_php84 bash
 ```
 ## Instalar toba
 ### Opción 1 - Instalacion silenciosa
