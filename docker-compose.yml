@@ -2,7 +2,7 @@
 
 services:
  pg_toba_php_84:
-  image: postgres:14
+  image: postgres:18
   ports:
    - "7433:5432"
   container_name: pg_toba_php_84
