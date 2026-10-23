@@ -1,0 +1,340 @@
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:26
+Operacion: Login
+Usuario: no_autentificado
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_editor',
+  1 => '33000040',
+)
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(33000139): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000139): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000139): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000139): [ callback ] 'conf__login'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase login/eiform_login.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(33000139): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:36
+Operacion: Marco
+Usuario: toba
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/aplicacion.php?ah=st6adba1f02b88a5.04671563&ai=toba_editor%7C%7C1000231
+Referrer: http://localhost:7009/toba_editor/3.5/aplicacion.php?ah=st6adba1e6f0c143.17044556&ai=toba_editor%7C%7C33000040
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_3_5'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'pg_toba_php_84',
+  'usuario' => 'postgres',
+  'clave' => 'postgres',
+  'base' => 'toba_3_5',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[ERROR][toba_editor] DBA: La BASE [desarrollo toba_editor test] no esta definida en el archivo de definición de BASES: '/var/local/docker-data/toba_docker-instalacion/bases.ini'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase acciones/marco.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:37
+Operacion: Menu
+Usuario: toba
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/aplicacion.php?ah=st6adba1f0b2a9f5.16394393&ai=toba_editor%7C%7C1000241
+Referrer: http://localhost:7009/toba_editor/3.5/aplicacion.php?ah=st6adba1f02b88a5.04671563&ai=toba_editor%7C%7C1000231
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_3_5'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'pg_toba_php_84',
+  'usuario' => 'postgres',
+  'clave' => 'postgres',
+  'base' => 'toba_3_5',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[ERROR][toba_editor] DBA: La BASE [desarrollo toba_editor test] no esta definida en el archivo de definición de BASES: '/var/local/docker-data/toba_docker-instalacion/bases.ini'
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase acciones/control.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:37
+Operacion: Catálogo
+Usuario: toba
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/aplicacion.php?ah=st6adba1f0b2a9f5.16394393&ai=toba_editor%7C%7C1000239&tcm=lateral&tm=1
+Referrer: http://localhost:7009/toba_editor/3.5/aplicacion.php?ah=st6adba1f02b88a5.04671563&ai=toba_editor%7C%7C1000231
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_3_5'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'pg_toba_php_84',
+  'usuario' => 'postgres',
+  'clave' => 'postgres',
+  'base' => 'toba_3_5',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[ERROR][toba_editor] DBA: La BASE [desarrollo toba_editor test] no esta definida en el archivo de definición de BASES: '/var/local/docker-data/toba_docker-instalacion/bases.ini'
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/ci_catalogo_items.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1381): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1381): Pantalla de servicio: '1'
+[INFO][toba] componente(1381): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/cuadro_fotos.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [ callback ] 'conf__fotos'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/filtro_catalogo_items.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(1381): [ callback ] 'conf__items'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:37
+Operacion: Inicio
+Usuario: toba
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/aplicacion.php?ah=st6adba1f0b2a9f5.16394393&ai=toba_editor%7C%7C1000265
+Referrer: http://localhost:7009/toba_editor/3.5/aplicacion.php?ah=st6adba1f02b88a5.04671563&ai=toba_editor%7C%7C1000231
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_3_5'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'pg_toba_php_84',
+  'usuario' => 'postgres',
+  'clave' => 'postgres',
+  'base' => 'toba_3_5',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[ERROR][toba_editor] DBA: La BASE [desarrollo toba_editor test] no esta definida en el archivo de definición de BASES: '/var/local/docker-data/toba_docker-instalacion/bases.ini'
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase acciones/inicio.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+-o-o-o-o-o-
+Fecha: 23-10-2026 15:05:41
+Operacion: Login
+Usuario: no_autentificado
+Version-PHP: 8.4.27
+Servidor: localhost
+URI: /toba_editor/3.5/aplicacion.php?fs=1
+Referrer: http://localhost:7009/toba_editor/3.5/aplicacion.php?ah=st6adba1f0b2a9f5.16394393&ai=toba_editor%7C%7C1000241
+Host: 172.19.0.1
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] Pérdida de sesión: Finalizada por el usuario
+[DEBUG][toba_editor] INSTALACIÓN "/var/local/docker-data/toba_docker-instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_3_5',
+  'proyectos' => 'toba_referencia,toba_editor,toba_usuarios',
+  'tipo' => 'normal',
+  'toba_referencia' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/3.5',
+  ),
+  'toba_editor' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor',
+    'url' => '/toba_editor/3.5',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => '/usr/local/build/vendor/siu-toba/framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/3.5',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_3_5'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'pg_toba_php_84',
+  'usuario' => 'postgres',
+  'clave' => 'postgres',
+  'base' => 'toba_3_5',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[ERROR][toba_editor] DBA: La BASE [desarrollo toba_editor test] no esta definida en el archivo de definición de BASES: '/var/local/docker-data/toba_docker-instalacion/bases.ini'
+[DEBUG][toba] BORRAR segmento memoria EDITOR
+[DEBUG][toba] BORRAR segmento memoria PROYECTO: toba_editor
+[DEBUG][toba] BORRAR segmento memoria INSTANCIA: desarrollo
+[DEBUG][toba] BORRAR segmento memoria INSTALACION
+[DEBUG][toba_editor] Guardando parametros del item original
+[DEBUG][toba_editor] array (
+  'fs' => '1',
+)
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_editor',
+  1 => '33000040',
+)
+[DEBUG][toba_editor] PROYECTO "toba_editor"
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(33000139): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000139): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000139): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000139): [ callback ] 'conf__login'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase login/eiform_login.php del punto de montaje proyecto. El path del mismo es /usr/local/build/vendor/siu-toba/framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(33000139): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...

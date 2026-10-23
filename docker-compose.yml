@@ -1,0 +1,40 @@
+
+
+services:
+ pg_toba_php_84:
+  image: postgres:14
+  ports:
+   - "7433:5432"
+  container_name: pg_toba_php_84
+  environment:
+    POSTGRES_USER       : postgres
+    POSTGRES_PASSWORD   : postgres
+
+ toba_docker_php84:
+  build:
+    context: .
+    dockerfile: ./Dockerfile
+  container_name: toba_docker_php84
+  ports:
+   - "7009:8080"
+  environment:
+    DOCKER_NAME                       : toba_docker_php84
+    DOCKER_WEB_PORT                   : 7009
+    TOBA_PASS                         : toba
+    TOBA_BASE_PASS                    : postgres
+    TOBA_INSTALACION_DIR              : /var/local/docker-data/toba_docker-instalacion
+    TOBA_BASE_HOST                    : pg_toba_php_84
+    TOBA_BASE_NOMBRE                  : toba_toba_docker
+    TOBA_PROYECTO                     : toba_docker_php84
+    TOBA_PROYECTO_DIR                 : /var/local/toba_docker
+    TOBA_PROYECTO_ALIAS               : /toba_docker
+    TOBA_PROYECTO_INSTALAR            : "True"
+    TOBA_INSTALAR_REFERENCIA          : "True"
+    TOBA_INSTALAR_USUARIOS            : "True"
+  links:
+   - pg_toba_php_84
+  volumes:
+   - .:/var/local/toba_docker
+   - ./instalacion:/var/local/docker-data/toba_docker-instalacion
+   - ./proyecto:/var/local/docker-data/proyecto
+   - ./80-siu.ini:/etc/php84/conf.d/80-siu.ini
